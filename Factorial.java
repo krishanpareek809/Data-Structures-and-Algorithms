@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Factorial {
 
-    static int factorial(int n){
-        if (n==0 || n==1){
+    static int factorial(int n){     // Time Complexity = Theta(n)
+        if (n==0 || n==1){           // Auxiliary Space = Theta(n)
             return 1;
         }
         else{
@@ -11,8 +11,8 @@ public class Factorial {
         }
     }
 
-    static int factorial_iterative(int n){
-        if (n==0 || n==1){
+    static int factorial_iterative(int n){     // Time Complexity = Theta(n)
+        if (n==0 || n==1){                     // Auxiliary Space = O(1)
             return 1;
         }
         else{
