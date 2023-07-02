@@ -26,3 +26,5 @@ public class PrimeFactors {
         primeFactors(12);
     }
 }
+
+// Time Complexity = O(n log(n))
