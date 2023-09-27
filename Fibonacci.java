@@ -14,6 +14,8 @@ public class Fibonacci {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value of x: ");
         x = sc.nextInt();
-        System.out.println(fib(x));
+        for(int i=0; i<x; i++){
+            System.out.println(fib(i));
+        }
     }
 }
