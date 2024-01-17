@@ -39,7 +39,7 @@ public class OperationsOnArrays{
         int i;
         int n=arr.length;
 
-        for(i=0; i<n-1; i++){
+        for(i=0; i<n; i++){
             if(arr[i]==x) break;
         }
 
@@ -57,3 +57,8 @@ public class OperationsOnArrays{
         System.out.println(delete(12));      // Delete
     }
 }
+
+// Time Complexity
+// Insert = O(n)
+// Search = O(n) for unsorted, O(log n) for sorted
+// Delete = O(n)
